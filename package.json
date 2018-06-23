@@ -1,0 +1,21 @@
+{
+  "name": "babel1",
+  "version": "1.0.0",
+  "description": "babel1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.js --watch --out-file script-compiled.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "exercise1P15"
+  },
+  "author": "zszywka",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
