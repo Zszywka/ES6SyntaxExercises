@@ -6,7 +6,7 @@
 
 const firstWord = 'Hello';
 const secondWord = 'World';
-const sumStrings = '${firstWord} ${secondWord}';
+const sumStrings = `${firstWord} ${secondWord}`;
 console.log(sum);
 // or
 const sumStrings = (firstWord = 'Hello', secondWord = 'World') => console.log('${firstWord} ${secondWord}');
