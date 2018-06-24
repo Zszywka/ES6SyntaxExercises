@@ -9,7 +9,7 @@ const secondWord = 'World';
 const sumStrings = `${firstWord} ${secondWord}`;
 console.log(sum);
 // or
-const sumStrings = (firstWord = 'Hello', secondWord = 'World') => console.log('${firstWord} ${secondWord}');
+const sumStrings = (firstWord = 'Hello', secondWord = 'World') => console.log(`${firstWord} ${secondWord}`);
 sumStrings();
 
 //---------------------TASK II--------------------------------------------------
